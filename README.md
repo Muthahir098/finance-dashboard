@@ -6,7 +6,7 @@ A modern and interactive finance dashboard built using React. This project helps
 
 🚀 Live Demo
 
-🔗 Add your deployed link here (Vercel)
+🔗 https://finance-dashboard-98.vercel.app/
 
 📂 GitHub Repository
 
@@ -82,7 +82,7 @@ src/
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/finance-dashboard.git
+git clone https://github.com/Muthahir098/finance-dashboard.git
 
 2. Navigate to project folder
 
