@@ -1,16 +1,138 @@
-# React + Vite
+💰 Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive finance dashboard built using React. This project helps users track financial activity, visualize spending patterns, and manage transactions with a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🚀 Live Demo
 
-## React Compiler
+🔗 Add your deployed link here (Vercel)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📂 GitHub Repository
 
-## Expanding the ESLint configuration
+🔗 https://github.com/Muthahir098/finance-dashboard
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+📌 Features
+
+📊 Dashboard Overview
+
+- Displays Total Balance, Income, and Expenses
+- Interactive line chart for financial trends
+- Pie chart for category-wise spending breakdown
+
+📋 Transactions Management
+
+- View transactions with:
+   - Date
+   - Amount
+   - Category
+   - Type (Income/Expense)
+- Filter transactions by type
+- Add new transactions (Admin only)
+
+👤 Role-Based UI
+
+- Viewer → Can only view data
+- Admin → Can add transactions
+
+💡 Insights Section
+
+- Highlights highest spending category
+- Shows basic financial insights
+
+💾 Data Persistence
+
+- Transactions are stored in localStorage
+- Data remains even after page refresh
+
+🎨 UI/UX
+
+- Clean and modern dark theme UI
+- Responsive design (mobile + desktop)
+- Smooth layout and spacing
+
+---
+
+🛠️ Tech Stack
+
+- Frontend: React (Vite)
+- Styling: Tailwind CSS
+- Charts: Recharts
+- State Management: React Hooks (useState, useEffect)
+
+---
+
+📁 Project Structure
+
+src/
+ ├── components/
+ │    ├── SummaryCard.jsx
+ │    ├── Transactions.jsx
+ │    ├── Charts.jsx
+ │    ├── Insights.jsx
+ │
+ ├── App.jsx
+ ├── main.jsx
+
+---
+
+⚙️ Installation & Setup
+
+1. Clone the repository
+
+git clone https://github.com/YOUR_USERNAME/finance-dashboard.git
+
+2. Navigate to project folder
+
+cd finance-dashboard
+
+3. Install dependencies
+
+npm install
+
+4. Run the development server
+
+npm run dev
+
+---
+
+📸 Screenshots
+
+(Add screenshots here for better presentation)
+
+---
+
+🎯 Key Highlights
+
+- Component-based architecture
+- Role-based UI simulation
+- Data persistence using localStorage
+- Interactive charts for better visualization
+- Clean and scalable design
+
+---
+
+🚀 Future Improvements
+
+- Edit/Delete transactions
+- Advanced filters and search
+- Backend integration (API)
+- Authentication system
+- Dark/Light mode toggle
+
+---
+
+📄 License
+
+This project is open source and available under the MIT License.
+
+---
+
+🙌 Author
+
+Muthahir khan.
+
+
+---
